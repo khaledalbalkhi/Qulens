@@ -1,0 +1,20 @@
+@model IEnumerable<Post>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Posts</h1>
+    @foreach (var post in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body d-flex justify-content-between">
+            <div>
+                <p class="card-text">@post.Content</p>
+                <p class="card-text"><small class="text-muted">@post.CreatedAt.ToString("g")</small></p>
+            </div>
+            <div>
+                <a asp-controller="Post" asp-action="Edit" asp-route-id="@post.PostId" class="btn btn-danger">Edit</a>
+            </div>
+            </div>
+        </div>
+    }
+    <a asp-controller="Post" asp-action="Create" class="btn btn-primary mt-3">Create Post</a>
+</div>

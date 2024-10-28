@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/user/Desktop/WebProject/Qulens/wwwroot/js/bootstrap.js",
+      "PackagePath": "staticwebassets/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/user/Desktop/WebProject/Qulens/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Qulens.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Qulens.props",
+      "PackagePath": "build\\Qulens.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Qulens.props",
+      "PackagePath": "buildMultiTargeting\\Qulens.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Qulens.props",
+      "PackagePath": "buildTransitive\\Qulens.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
